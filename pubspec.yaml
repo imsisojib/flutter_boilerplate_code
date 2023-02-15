@@ -1,4 +1,4 @@
-name: flutter_oilerplate_code
+name: flutter_boilerplate_code
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -22,17 +22,6 @@ version: 1.0.0+1
 environment:
   sdk: '>=2.18.6 <3.0.0'
 
-  dartz: ^0.10.1
-  provider: ^6.0.2
-  flutter_screenutil: ^5.3.1  #for adaptive_ui
-  fluro: ^2.0.3 #for routing
-  get_it: ^7.2.0  #dependency-injection
-  shared_preferences: ^2.0.13
-  http: ^0.13.5
-  connectivity_plus: ^3.0.2
-  permission_handler: ^10.0.1
-  logger: ^1.1.0
-
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
@@ -43,6 +32,17 @@ dependencies:
   flutter:
     sdk: flutter
 
+  google_fonts: ^3.0.1
+  dartz: ^0.10.1
+  provider: ^6.0.2
+  flutter_screenutil: ^5.3.1  #for adaptive_ui
+  fluro: ^2.0.3 #for routing
+  get_it: ^7.2.0  #dependency-injection
+  shared_preferences: ^2.0.13
+  http: ^0.13.5
+  connectivity_plus: ^3.0.2
+  permission_handler: ^10.0.1
+  logger: ^1.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
