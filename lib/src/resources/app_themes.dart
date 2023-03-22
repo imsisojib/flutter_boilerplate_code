@@ -8,7 +8,9 @@ import 'app_colors.dart';
 ThemeData buildLightTheme(BuildContext context) {
   final base = ThemeData.light();
   return base.copyWith(
-    bottomAppBarColor: AppColors.primaryColorLight,
+    bottomAppBarTheme: const BottomAppBarTheme(
+      color: AppColors.primaryColorLight,
+    ),
     bottomSheetTheme: BottomSheetThemeData(
       backgroundColor: AppColors.primaryColorLight,
       modalBackgroundColor: Colors.white.withOpacity(0.7),
@@ -69,7 +71,9 @@ ThemeData buildDarkTheme(BuildContext context) {
     ),
     textTheme: _buildDarkTextTheme(base.textTheme),
     scaffoldBackgroundColor: AppColors.scaffoldColorDark,
-    bottomAppBarColor: AppColors.scaffoldColorDark,
+    bottomAppBarTheme: const BottomAppBarTheme(
+      color: AppColors.scaffoldColorDark,
+    ),
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
       backgroundColor: AppColors.scaffoldColorDark,
       type: BottomNavigationBarType.fixed,
@@ -87,44 +91,44 @@ ThemeData buildDarkTheme(BuildContext context) {
 
 TextTheme _buildLightTextTheme(TextTheme base) {
   return base.copyWith(
-    headline4: GoogleFonts.workSans(
+    headlineMedium: GoogleFonts.workSans(  //headline4
       fontWeight: FontWeight.w600,
       fontSize: 34,
       letterSpacing: 0.4,
       height: 0.9,
       color: AppColors.textColorLight,
     ),
-    headline5: GoogleFonts.workSans(
+    headlineSmall: GoogleFonts.workSans(  //headline5
       fontWeight: FontWeight.bold,
       fontSize: 24,
       letterSpacing: 0.27,
       color: AppColors.textColorLight,
     ),
-    headline6: GoogleFonts.workSans(
+    headlineLarge: GoogleFonts.workSans(  //headline6
       fontWeight: FontWeight.w600,
       fontSize: 20,
       letterSpacing: 0.18,
       color: AppColors.textColorLight,
     ),
-    subtitle2: GoogleFonts.workSans(
+    titleSmall: GoogleFonts.workSans(   //subtitle2
       fontWeight: FontWeight.w600,
       fontSize: 14,
       letterSpacing: -0.04,
       color: AppColors.textColorLight,
     ),
-    bodyText1: GoogleFonts.workSans(
+    bodyLarge: GoogleFonts.workSans(  //bodyText1
       fontWeight: FontWeight.normal,
       fontSize: 16.sp,
       letterSpacing: 0.2,
       color: AppColors.textColorLight,
     ),
-    bodyText2: GoogleFonts.workSans(
+    bodyMedium: GoogleFonts.workSans(  //bodyText2
       fontWeight: FontWeight.normal,
       fontSize: 14.sp,
       letterSpacing: -0.05,
       color: AppColors.textColorLight,
     ),
-    caption: GoogleFonts.workSans(
+    bodySmall: GoogleFonts.workSans(  //caption
       fontWeight: FontWeight.normal,
       fontSize: 12,
       letterSpacing: 0.2,
@@ -135,44 +139,44 @@ TextTheme _buildLightTextTheme(TextTheme base) {
 
 TextTheme _buildDarkTextTheme(TextTheme base) {
   return base.copyWith(
-    headline4: GoogleFonts.rubik(
+    headlineMedium: GoogleFonts.rubik( //headline4
       fontWeight: FontWeight.w600,
       fontSize: 34.sp,
       letterSpacing: 0.4,
       height: 0.9,
       color: AppColors.textColorDark,
     ),
-    headline5: GoogleFonts.rubik(
+    headlineSmall: GoogleFonts.rubik( //headline5
       fontWeight: FontWeight.bold,
       fontSize: 24.sp,
       letterSpacing: 0.27,
       color: AppColors.textColorDark,
     ),
-    headline6: GoogleFonts.rubik(
+    headlineLarge: GoogleFonts.rubik( //headline6
       fontWeight: FontWeight.w600,
       fontSize: 20.sp,
       letterSpacing: 0.18,
       color: AppColors.textColorDark,
     ),
-    subtitle2: GoogleFonts.rubik(
+    titleSmall: GoogleFonts.rubik( //subtitle2
       fontWeight: FontWeight.w600,
       fontSize: 14.sp,
       letterSpacing: -0.04,
       color: AppColors.textColorDark,
     ),
-    bodyText1: GoogleFonts.rubik(
+    bodyLarge: GoogleFonts.rubik( //bodyText1
       fontWeight: FontWeight.normal,
       fontSize: 16.sp,
       letterSpacing: 0.2,
       color: AppColors.textColorDark,
     ),
-    bodyText2: GoogleFonts.rubik(
+    bodyMedium: GoogleFonts.rubik(  //bodyText2
       fontWeight: FontWeight.normal,
       fontSize: 14.sp,
       letterSpacing: -0.05,
       color: AppColors.textColorDark,
     ),
-    caption: GoogleFonts.rubik(
+    bodySmall: GoogleFonts.rubik( //caption
       fontWeight: FontWeight.normal,
       fontSize: 12.sp,
       letterSpacing: 0.2,
