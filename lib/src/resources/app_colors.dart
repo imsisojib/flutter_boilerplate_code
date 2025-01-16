@@ -6,6 +6,9 @@ class AppColors {
   static const Color textColorLight = Color(0xFF000000);
   static const Color textColorDark = Color(0xFFFAFAFA);
 
+  static const Color secondaryTextColorDark = Color(0xFF000000);
+  static const Color secondaryTextColorLight = Color(0xFF000000);
+
   //light mode
   static const Color primaryColorLight = Color(0xFF344955);
   static const Color secondaryColorLight = Color(0xFFF9AA33);
