@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.your_org.your_project_id" "\0"
-            VALUE "FileDescription", "flutter_oilerplate_code" "\0"
+            VALUE "FileDescription", "flutter_boilerplate_code" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "flutter_oilerplate_code" "\0"
+            VALUE "InternalName", "flutter_boilerplate_code" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.your_org.your_project_id. All rights reserved." "\0"
-            VALUE "OriginalFilename", "flutter_oilerplate_code.exe" "\0"
-            VALUE "ProductName", "flutter_oilerplate_code" "\0"
+            VALUE "OriginalFilename", "flutter_boilerplate_code.exe" "\0"
+            VALUE "ProductName", "flutter_boilerplate_code" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

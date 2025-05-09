@@ -39,9 +39,9 @@ class _MyAppState extends State<MyApp> {
               child: child!,
             );
           },
-          title: 'MuseIQ',
-          themeMode: ThemeMode.dark,
-          theme: buildDarkTheme(context),
+          title: 'Flutter Boilerplate Code',
+          themeMode: ThemeMode.light,
+          theme: buildLightTheme(context),
           initialRoute: Routes.homeScreen,
           onGenerateRoute: RouterHelper.router.generator,
         );

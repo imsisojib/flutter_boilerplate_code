@@ -1,4 +1,4 @@
-package com.your_org.your_project_id.flutter_oilerplate_code
+package com.flutter_boilerplate_code
 
 import io.flutter.embedding.android.FlutterActivity
 

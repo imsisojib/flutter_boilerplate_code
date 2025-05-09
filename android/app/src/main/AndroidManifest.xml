@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.your_org.your_project_id.flutter_oilerplate_code">
+    package="com.flutter_boilerplate_code">
    <application
         android:label="flutter_oilerplate_code"
         android:name="${applicationName}"
